@@ -1,0 +1,16 @@
+fastapi[all]
+uvicorn
+pydantic
+opencv-python
+Pillow
+cvu-python
+onnx
+onnxruntime
+pytest
+black
+flake8
+scikit-learn
+scikit-image
+torch
+torchvision
+python-multipart
