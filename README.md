@@ -13,7 +13,7 @@
 4. Перейти по адресу: http://localhost:8000/docs
 
 
-### Без Docker
+### Без Docker:
 
 1. cd fastapi-ui-elements-detection
 
@@ -22,4 +22,3 @@
 3. uvicorn src.main:app
 
 4. 4. Перейти по адресу: http://localhost:8000/docs
-
