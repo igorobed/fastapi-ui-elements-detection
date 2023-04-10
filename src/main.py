@@ -1,12 +1,12 @@
 import uvicorn
 from fastapi import FastAPI
 
-# from src.burger_menu.router import router as router_burger_menu  # чтобы запускать из консоли из корня
-# from src.menu_items.router import router as router_menu_items
-# from src.all_items.router import router as router_all_items
-from burger_menu.router import router as router_burger_menu
-from menu_items.router import router as router_menu_items
-from all_items.router import router as router_all_items
+from src.burger_menu.router import router as router_burger_menu  # чтобы запускать из консоли из корня
+from src.menu_items.router import router as router_menu_items
+from src.all_items.router import router as router_all_items
+# from burger_menu.router import router as router_burger_menu
+# from menu_items.router import router as router_menu_items
+# from all_items.router import router as router_all_items
 
 
 app = FastAPI(title="UI Elements Detection")
